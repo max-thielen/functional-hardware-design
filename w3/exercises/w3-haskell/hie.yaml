@@ -1,0 +1,12 @@
+cradle:
+  cabal:
+    - path: "./src"
+      component: "lib:w3-haskell"
+    - path: "./tests/doctests.hs"
+      component: "w3-haskell:doctests"
+    - path: "./tests"
+      component: "w3-haskell:test-library"
+    - path: "./bin/Clashi.hs"
+      component: "w3-haskell:exe:clashi"
+    - path: "./bin/Clash.hs"
+      component: "w3-haskell:exe:clash"

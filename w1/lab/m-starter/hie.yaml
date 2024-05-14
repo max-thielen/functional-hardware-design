@@ -1,0 +1,12 @@
+cradle:
+  cabal:
+    - path: "./src"
+      component: "lib:m-starter"
+    - path: "./tests/doctests.hs"
+      component: "m-starter:doctests"
+    - path: "./tests"
+      component: "m-starter:test-library"
+    - path: "./bin/Clashi.hs"
+      component: "m-starter:exe:clashi"
+    - path: "./bin/Clash.hs"
+      component: "m-starter:exe:clash"

@@ -1,0 +1,12 @@
+cradle:
+  cabal:
+    - path: "./src"
+      component: "lib:myExercises"
+    - path: "./tests/doctests.hs"
+      component: "myExercises:doctests"
+    - path: "./tests"
+      component: "myExercises:test-library"
+    - path: "./bin/Clashi.hs"
+      component: "myExercises:exe:clashi"
+    - path: "./bin/Clash.hs"
+      component: "myExercises:exe:clash"
